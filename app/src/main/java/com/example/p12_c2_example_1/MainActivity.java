@@ -42,4 +42,5 @@ public class MainActivity extends AppCompatActivity {
 //agrega un valor correspondiente al radio de un circulo y calcular area y perimetro
 
 //3 valores,determina que tipo de triangulo se forma por sus lados (isoceles escaleo equilatero), validar que se pueda formar el triangulo.
+//aplicar teorema de desigualdad triangular, suma de 2 lados debe ser mayor al tercero
 
