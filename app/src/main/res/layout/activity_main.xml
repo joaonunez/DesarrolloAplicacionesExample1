@@ -47,16 +47,16 @@
         android:layout_marginEnd="100dp"
         android:layout_marginBottom="29dp"
         android:ems="10"
+        android:hint="Valor2"
         android:inputType="text"
-        android:text="Last Name"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSumar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.02"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etValor1" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonSumar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="160dp"
@@ -73,13 +73,13 @@
 
     <TextView
         android:id="@+id/tvResultado"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="201dp"
+        android:layout_width="193dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="109dp"
         android:layout_marginTop="68dp"
-        android:layout_marginEnd="202dp"
-        android:text=".."
+        android:layout_marginEnd="109dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonSumar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
